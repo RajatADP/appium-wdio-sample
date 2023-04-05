@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "env": "dev",
+      "nric": "S8184457G",
+      "mobile": "88888888",
+      "deviceName": "GOOGLE_Pixel3aXL_Android_11.0.0_1e0f9"
+    },
+    {
+      "env": "sit",
+      "nric": "S9342565J",
+      "mobile": "90909091",
+      "deviceName": "GOOGLE_Pixel3aXL_Android_11.0.0_1e0f9"
+    },
+    {
+      "env": "dev",
+      "nric": "S4792980F",
+      "mobile": "88888888",
+      "deviceName": "APPLE_iPhone12Pro_ios_14.3.0_bf28c"
+    },
+    {
+      "env": "dev",
+      "nric": "S4792980F",
+      "mobile": "88888888",
+      "deviceName": "Pixel_6_Pro"
+    }
+  ]
+}

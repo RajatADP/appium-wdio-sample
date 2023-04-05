@@ -1,0 +1,29 @@
+{
+  "parser": "@babel/eslint-parser",
+  "plugins": [
+    "wdio"
+  ],
+    "extends": [
+      "eslint:recommended",
+      "plugin:wdio/recommended",
+      "prettier"
+    ],
+    "env": {
+      "es2021": true,
+      "mocha": true,
+      "node": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 2020,
+      "sourceType": "module",
+      "requireConfigFile": false,
+      "babelOptions": {
+        "babelrc": false,
+        "configFile": false,
+        "presets": ["@babel/preset-env"]
+      },
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    }
+  }
